@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i';
+
+body {
+  background-color: #eee;
+  color: #444;
+  font: 18px 'Fira Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4372B5;
+  color: #fff;
+  padding: 0.5em 2em;
+}
+
+header img {
+  left: 0.5em;
+  top: -0.2em;
+  position: absolute;
+  width: 100px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  padding-left: 2em;
+}
+
+h1 span {
+  font-weight: normal;
+}
+
+section {
+  padding: 2em 6em;
+}
+
+h2 {
+  margin: 0;
+}
+
+details {
+  display: inline-block;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  width: 320px;
+}
+
+summary {
+  background-color: #192943;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.5em;
+}
+
+table {
+  margin-top: 0.5em;
+}
+
+table td:nth-of-type(1) {
+  font-weight: bold;
+  padding-right: 1em;
+  text-align: right;
+}
